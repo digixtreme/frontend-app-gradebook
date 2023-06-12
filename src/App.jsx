@@ -11,6 +11,7 @@ import store from 'data/store';
 import GradebookPage from 'containers/GradebookPage';
 import './App.scss';
 import Head from './head/Head';
+import './custom.scss';
 
 const App = () => (
   <AppProvider store={store}>
